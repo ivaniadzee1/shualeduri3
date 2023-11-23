@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responseive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title"></div>
+
+        <div class="box">
+            <div class="left">
+                <div class="bill">
+                    <h1>Bill</h1>
+                    <div class="input" id="bill-div">
+                        <img src="image/dolar.svg" alt="">
+                        <input type="number" placeholder="0" id="bill">
+                    </div>
+                </div>
+            
+            
+                <div class="tip">
+                    <h1>Select Tip %</h1>
+                    <div class="tips">
+                        <button id="btn1">5%</button>
+                        <button id="btn2">10%</button>
+                        <button id="btn3">15%</button>
+                        <button id="btn4">25%</button>
+                        <button id="btn5">50%</button>
+                        <input type="number" placeholder="Custom" id="custom">
+                    </div>
+                </div>
+
+                <div class="people">
+                    <div class="ppl-text">
+                        <h1>Number of People</h1>
+                        <h1 id="zero"></h1>
+                    </div>
+                    
+                    <div class="input" id="people-div">
+                        <img class="ppl" src="image/people.svg" alt="">
+                        <input type="number" placeholder="0" id="people">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="right">
+                <div class="amount flex">
+                    <div class="text">
+                        <h1>Tip Amount</h1>
+                        <p> / preson</p>
+                    </div>
+                    <div class="price">
+                        <h1 id="tip-amount">$0.00</h1>
+                    </div>
+                </div>
+                <div class="amount flex">
+                    <div class="text">
+                        <h1>Total</h1>
+                        <p> / preson</p>
+                    </div>
+                    <div class="price">
+                        <h1 id="total">$0.00</h1>
+                    </div>
+                </div>
+                <button id="btn6">RESET</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

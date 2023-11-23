@@ -1,0 +1,59 @@
+@media (width >= 1000px) {
+    .container .box {
+        width: 920px;
+    }
+
+    .container .box {
+        display: flex;
+    }
+
+    .container .box .left {
+        width: 379px;
+    }
+
+    .container .box .left {
+        margin-top: 45px;
+    }
+
+
+    .container .box .left .people .input {
+        width: 379px;
+    }
+
+
+    .container .box .left .tip .tips input {
+        width: 117px;
+    }
+
+
+    .container .box .left .people .input {
+        margin-bottom: 40px;
+    }
+
+    .container .box .right button {
+        width: 333px;
+        margin-top: 70px;
+    }
+
+    .container .box .right .amount {
+        margin-top: 30px;
+        margin-bottom: 58px;
+    }
+
+    .container .title {
+        margin-top: 80px;
+        margin-bottom: 56px;
+    }
+}
+.container .box .right{
+    width: 379px;
+}
+.container .box .left .bill .input{
+    width: 379px;
+}
+.container .box .left .tip .tips button{
+    width: 117px;
+}
+.container .box .left .bill .input{
+    margin-bottom: 40px;
+}
